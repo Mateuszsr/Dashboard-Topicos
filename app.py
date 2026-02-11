@@ -62,7 +62,7 @@ def load_data(file_path):
     """
     try:
         # Load CSV
-        df = pd.read_csv(file_path)
+        df = pd.read_csv('base_dashboard.csv')
         
         # Detect and parse date columns
         date_columns = ['data_pedido', 'data_cadastro']

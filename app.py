@@ -92,7 +92,7 @@ def calcular_kpis(df):
 def main():
 
     st.title("📊 Dashboard Analítico de Vendas")
-    st.caption("Autor: Mateus Ramos | Projeto de Análise de Dados")
+    st.caption("Autores: Mateus Ramos e Antonio Gabriel | Projeto de Análise de Dados")
 
     df = load_data()
 
